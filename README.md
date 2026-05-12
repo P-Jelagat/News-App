@@ -1,0 +1,2 @@
+New web app
+ this is a simple web app I made with HTML, CSS and JAVASCRIPT with the aid of NEWS API. I will be making improvements as I see necessary or fun as I continue to explore APIS with JAVASCRIPT.
