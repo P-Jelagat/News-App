@@ -2,7 +2,7 @@ const menuBtns = document.querySelectorAll(".fa.fa-bars");
 const aside = document.querySelector("aside");
 
 const apiKey = "a906f33312e946fdaa08db4ce05fa91f";
-const apiUrl = `https://newsapi.org/v2/everything?q=tesla&from=2026-04-12&sortBy=publishedAt&apiKey=${apiKey}`;
+const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`;
 const contents = document.querySelector(".content");
 contents.innerHTML = "";
 
@@ -35,7 +35,7 @@ function displayNews(articles){
         const image = document.createElement("img");
         image.src = article.urlToImage;
 
-        const info= document.createElement("h1");
+        const info = document.createElement("h1");
         info.textContent = article.title;
 
         const text = document.createElement("p");
